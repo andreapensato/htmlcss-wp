@@ -19,25 +19,28 @@
 /* Header */
 header {
   height: 150px;
-  background-color: pink;
+  background-color: white;
 }
 /* /Header */
 
 /* Main */
 .hero {
-  height: 600px;
-  margin: 30px 0;
-  background-color: yellow;
+  height: 320px;
+  margin: 10px 0;
+  background-color: lightgray;
+  border-radius: 10px
+
 }
 
 .leadership {
-  background-color: blue;
+  background-color: whitw;
 }
 .leadership-title {
   height: 80px;
 }
 
-.col, .leadership-title {
+.col,
+.leadership-title {
   background-color: lightblue;
 }
 .row {
@@ -46,7 +49,8 @@ header {
 .col {
   float: left;
 }
-.col-left, .col-right {
+.col-left,
+.col-right {
   width: calc(20% - 20px);
 }
 .col-center {
@@ -56,9 +60,22 @@ header {
 /* /Main */
 
 /* Footer */
-footer {
+.footer {
   height: 80px;
-  background-color: purple;
-  margin-top: 15px;
+  background-color: white;
+  text-align: center;
 }
+
+.banner-2{
+  width: 100% ;
+}
+
+.col-banner{
+  height: 150px;
+  width: 100%;
+  background-image: url("../img/img-1.jpg");
+  background-size: cover;
+}
+
+
 /* /Footer */
