@@ -10,72 +10,54 @@
   margin: auto;
 }
 
-.clearfix::after {
+.clearfix::after{
   content: "";
   display: block;
   clear: both;
 }
 
-/* Header */
-header {
+/* Header*/
+header{
   height: 150px;
-  background-color: white;
+  background-color: pink;
 }
-/* /Header */
+/* /Header*/
 
-/* Main */
+/* main */
 .hero {
-  height: 320px;
-  margin: 10px 0;
-  background-color: lightgray;
-  border-radius: 10px
-
+  height: 600px;
+  margin: 30px;
+  background-color: yellow;
 }
-
-.leadership {
-  background-color: whitw;
+.leaderschip {
+  background-color: blue;
 }
-.leadership-title {
+.leaderschip-title{
   height: 80px;
-}
 
-.col,
-.leadership-title {
+}
+.col, .leaderschip-title {
   background-color: lightblue;
 }
 .row {
   padding: 20px 0;
 }
-.col {
+.col{
   float: left;
 }
-.col-left,
-.col-right {
+.col-left, .col-riht {
   width: calc(20% - 20px);
 }
-.col-center {
+.col-center{
   width: 60%;
   margin: 0 20px;
 }
-/* /Main */
+/* /main */
 
-/* Footer */
-.footer {
+/* footer */
+footer{
   height: 80px;
-  background-color: white;
-  text-align: center;
+  background-color: purple;
+  margin-top: 15px;
 }
-
-.banner-2{
-  width: 100% ;
-}
-
-.col-banner{
-  height: 150px;
-  width: 100%;
-  background-image: url("../img/img-1.jpg");
-  background-size: cover;
-}
-
-
-/* /Footer */
+ /* /footer */
